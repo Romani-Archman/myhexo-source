@@ -1,0 +1,120 @@
+# site name
+prefixName: あちまんの
+siteName: site
+# favicon and site master avatar
+favicon: /images/site_logo.ico
+avatar: /img/custom/head.png
+url: http://www.archman.fun/
+description: 或许前方只有伸手不见五指的夜路,即使如此,我还是要充满信心,继续向前.
+cdn: https://cdn.jsdelivr.net/gh/Romani-Archman/mycdn@1.2
+pjax: 1
+# 1开启
+mathjax: 0
+
+notice: nothing
+lazyloadImg: https://cdn.jsdelivr.net/gh/Romani-Archman/mycdn@1.2/img/loader/orange.progress-bar-stripe-loader.svg
+
+menus:
+  首页: { path: /, fa: fa-fort-awesome faa-shake }
+  归档: { path: /archives, fa: fa-archive faa-shake, submenus: { 
+    技术: {path: /categories/技术/, fa: fa-code }, 
+    生活: {path: /categories/生活/, fa: fa-file-text-o }, 
+    资源: {path: /categories/资源/, fa: fa-cloud-download }, 
+    随想: {path: /categories/随想/, fa: fa-commenting-o },
+    转载: {path: /categories/转载/, fa: fa-book }
+  } }
+  清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
+    书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce }, 
+    番组: {path: /bangumi/, fa: fa-film faa-vertical }, 
+    歌单: {path: /music/, fa: fa-headphones },
+    图集: {path: /tags/图集/, fa: fa-photo }
+  } }
+  留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
+  友人帐: { path: /links/, fa: fa-link faa-shake }
+  赞赏: { path: /donate/, fa: fa-heart faa-pulse }
+  关于: { path: /, fa: fa-leaf faa-wrench , submenus: { 
+    我？: {path: /about/, fa: fa-meetup}, 
+    主题: {path: /theme-sakura/, fa: iconfont icon-sakura },
+    Lab: {path: /lab/, fa: fa-cogs },
+  } }
+  客户端: { path: /client/, fa: fa-android faa-vertical }
+  RSS: { path: /atom.xml, fa: fa-rss faa-pulse }
+
+
+# Home page sort type: -1: newer first，1: older first.
+homePageSortType: -1
+# Home page article shown number)
+homeArticleShown: 10
+# 背景图片 更好的修改
+bg:
+  - https://tva3.sinaimg.cn/large/87c01ec7gy1frkhzqqwtfj21kw0w0hdt.jpg
+  - https://tva2.sinaimg.cn/large/0072Vf1pgy1foxk3iad2ij31kw0w0x0a.jpg
+  - https://tva1.sinaimg.cn/large/87c01ec7gy1fs5dmi0fs1j21hc0u0npd.jpg
+  - https://tva1.sinaimg.cn/large/0072Vf1pgy1foxk6x3lejj31kw0w0x5a.jpg
+  - https://tva1.sinaimg.cn/large/87c01ec7gy1frqf4rbtqpj21hc0u0u0x.jpg
+  - https://tva3.sinaimg.cn/large/87c01ec7gy1frx4c5s8sbj21hc0u047o.jpg
+  - https://tva1.sinaimg.cn/large/0072Vf1pgy1fodqoi6wubj31hc0u0hdt.jpg
+  - https://tva1.sinaimg.cn/large/0072Vf1pgy1foxkf8h7q7j31hc0u0k55.jpg
+  - https://tva4.sinaimg.cn/large/87c01ec7gy1frx4dp97n6j21hc0u0489.jpg
+  - https://tva1.sinaimg.cn/large/87c01ec7gy1frx3ryn6ehj21hc0u0wty.jpg
+  - https://tva2.sinaimg.cn/large/0072Vf1pgy1foxkfmp926j31kw0w07u1.jpg
+
+# 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
+bgclass: filter-dot
+
+# startdash url, title, desc img
+startdash: 
+  - {url: /theme-sakura/, title: Sakura, desc: 本站 hexo 主题, img: /img/startdash/sakura.md.png}
+  - {url: http://space.bilibili.com/33129924, title: Bilibili, desc: bilibili space, img: /img/startdash/bilibili.jpg}
+  - {url: /, title: archman的万事屋, desc: 技术服务, img: /img/startdash/wangshiwu.jpg}
+
+
+
+# your site build time or founded date
+siteBuildingTime: 09/09/2020
+
+#social  url, img PC端配置
+social:
+  github: {url: http://github.com/Romani-Archman, img: /img/social/github.png}
+  sina: {url: http://archman.fun, img: /img/social/sina.png}
+  wangyiyun: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/wangyiyun.png}
+  zhihu: {url: https://www.zhihu.com/people/kuake-79, img: /img/social/zhihu.png}
+  email: {url: venn-diagram@qq.com, img: /img/social/email.svg}
+  wechat: {url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png}
+  wechat2: {url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png}
+
+#social  url, img 移动端配置
+msocial:
+  github: {url: http://github.com/Romani-Archman, fa: fa-github, color: 333}
+  weibo: {url: http://weibo.com/, fa: fa-weibo, color: dd4b39}
+  qq: {url: https://wpa.qq.com/msgrd?v=3&uin=2529166560&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
+
+donate:
+  paypal: https://www.paypal.me/RomaniArchman
+  alipay: /img/custom/donate/AliPayQR.jpg
+  wechat: /img/custom/donate/WeChanQR.jpg
+  wechatSQ: /img/custom/donate/WeChanSQ.jpg
+
+# 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
+movies:
+  url: https://archman.fun/
+  # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
+  name: 
+
+aplayer: 
+  id: 2660651585
+  server: netease
+  type: playlist
+  fixed: true
+  autoplay: false
+  loop: all
+  order: random
+  preload: auto
+  volume: 0.5
+  mutex: true
+
+# Valine
+valine: true
+v_appId: Tyr6OUXD8Ydes2xdrlFwdnhf-gzGzoHsz
+v_appKey: bS7ekeBXPq8xIPgVOznq6o8R
+
